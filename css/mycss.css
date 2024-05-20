@@ -1,0 +1,19 @@
+.profile-image {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 50%; /* Creates rounded shape */
+    /* background-color: #68e0cf; Your specified shadow color */
+    box-shadow: 0px 10px 20px #68e0cf; /* Shadow effect */
+    float: right; /* Position on the right side */
+    margin-left: 20px; /* Add some spacing */
+  }
+  
+  /* Ensure responsiveness */
+  @media (max-width: 1200px) {
+    .profile-image {
+     display: none;
+    }
+  }
+.text-none{
+    text-decoration: none;
+}
